@@ -88,7 +88,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     int posX = (screenWidth - width) / 2;
     int posY = (screenHeight - height) / 2;
 
-    HWND hwnd = CreateWindow(CLASS_NAME, "Diskpart GUI", WS_OVERLAPPEDWINDOW, posX, posY, width, height, NULL, NULL, hInstance, NULL);
+    HWND hwnd = CreateWindow(CLASS_NAME, "radium", WS_OVERLAPPEDWINDOW, posX, posY, width, height, NULL, NULL, hInstance, NULL);
 
     if (hwnd == NULL)
     {
